@@ -1,0 +1,15 @@
+/Users/naimakorane/NaimaKod/FizzBuzzApp/bin/Debug/net10.0/FizzBuzzApp
+/Users/naimakorane/NaimaKod/FizzBuzzApp/bin/Debug/net10.0/FizzBuzzApp.deps.json
+/Users/naimakorane/NaimaKod/FizzBuzzApp/bin/Debug/net10.0/FizzBuzzApp.runtimeconfig.json
+/Users/naimakorane/NaimaKod/FizzBuzzApp/bin/Debug/net10.0/FizzBuzzApp.dll
+/Users/naimakorane/NaimaKod/FizzBuzzApp/bin/Debug/net10.0/FizzBuzzApp.pdb
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.AssemblyInfoInputs.cache
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.AssemblyInfo.cs
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.csproj.CoreCompileInputs.cache
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.sourcelink.json
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.dll
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/refint/FizzBuzzApp.dll
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.pdb
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/FizzBuzzApp.genruntimeconfig.cache
+/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/Debug/net10.0/ref/FizzBuzzApp.dll
