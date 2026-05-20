@@ -1,19 +1,47 @@
-﻿for (int i = 1; i <= 20; i++)
+﻿using System;
+using System.Collections.Generic;
+
+class Employee
 {
-    if (i % 3 == 0 && i % 5 == 0)
+    public string Name { get; set; }
+    public int Salary { get; set; }
+
+    public Employee(string name, int salary)
     {
-        Console.WriteLine("FizzBuzz");
+        Name = name;
+        Salary = salary;
     }
-    else if (i % 3 == 0)
+}
+
+class Program
+{
+    static void Main()
     {
-        Console.WriteLine("Fizz");
-    }
-    else if (i % 5 == 0)
-    {
-        Console.WriteLine("Buzz");
-    }
-    else
-    {
-        Console.WriteLine(i);
+        List<Employee> employees = new List<Employee>();
+
+        Console.WriteLine("Personalregister");
+
+        while (true)
+        {
+            Console.Write("Ange namn (eller skriv exit): ");
+            string name = Console.ReadLine();
+
+            if (name.ToLower() == "exit")
+            {
+                break;
+            }
+
+            Console.Write("Ange lön: ");
+            int salary = int.Parse(Console.ReadLine());
+
+            employees.Add(new Employee(name, salary));
+        }
+
+        Console.WriteLine("\nAnställda:");
+
+        foreach (Employee employee in employees)
+        {
+            Console.WriteLine($"Namn: {employee.Name}, Lön: {employee.Salary}");
+        }
     }
 }
