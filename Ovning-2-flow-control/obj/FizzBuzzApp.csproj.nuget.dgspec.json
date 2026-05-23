@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/naimakorane/NaimaKod/FizzBuzzApp/FizzBuzzApp.csproj": {}
+    "/Users/naimakorane/NaimaKod/Ovning-2-flow-control/FizzBuzzApp.csproj": {}
   },
   "projects": {
-    "/Users/naimakorane/NaimaKod/FizzBuzzApp/FizzBuzzApp.csproj": {
+    "/Users/naimakorane/NaimaKod/Ovning-2-flow-control/FizzBuzzApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/naimakorane/NaimaKod/FizzBuzzApp/FizzBuzzApp.csproj",
+        "projectUniqueName": "/Users/naimakorane/NaimaKod/Ovning-2-flow-control/FizzBuzzApp.csproj",
         "projectName": "FizzBuzzApp",
-        "projectPath": "/Users/naimakorane/NaimaKod/FizzBuzzApp/FizzBuzzApp.csproj",
+        "projectPath": "/Users/naimakorane/NaimaKod/Ovning-2-flow-control/FizzBuzzApp.csproj",
         "packagesPath": "/Users/naimakorane/.nuget/packages/",
-        "outputPath": "/Users/naimakorane/NaimaKod/FizzBuzzApp/obj/",
+        "outputPath": "/Users/naimakorane/NaimaKod/Ovning-2-flow-control/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/naimakorane/.nuget/NuGet/NuGet.Config"
