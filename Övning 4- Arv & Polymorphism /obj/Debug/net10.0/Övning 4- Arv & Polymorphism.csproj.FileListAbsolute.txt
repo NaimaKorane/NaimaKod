@@ -1,0 +1,15 @@
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /bin/Debug/net10.0/Övning 4- Arv & Polymorphism
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /bin/Debug/net10.0/Övning 4- Arv & Polymorphism.deps.json
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /bin/Debug/net10.0/Övning 4- Arv & Polymorphism.runtimeconfig.json
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /bin/Debug/net10.0/Övning 4- Arv & Polymorphism.dll
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /bin/Debug/net10.0/Övning 4- Arv & Polymorphism.pdb
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.AssemblyInfoInputs.cache
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.AssemblyInfo.cs
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.csproj.CoreCompileInputs.cache
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.sourcelink.json
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.dll
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/refint/Övning 4- Arv & Polymorphism.dll
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.pdb
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/Övning 4- Arv & Polymorphism.genruntimeconfig.cache
+/Users/naimakorane/NaimaKod/Övning 4- Arv & Polymorphism /obj/Debug/net10.0/ref/Övning 4- Arv & Polymorphism.dll
