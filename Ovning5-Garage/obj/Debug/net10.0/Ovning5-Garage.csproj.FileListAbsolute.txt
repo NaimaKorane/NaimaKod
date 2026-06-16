@@ -1,0 +1,15 @@
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.AssemblyInfoInputs.cache
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.AssemblyInfo.cs
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.csproj.CoreCompileInputs.cache
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.sourcelink.json
+/Users/naimakorane/NaimaKod/Ovning5-Garage/bin/Debug/net10.0/Ovning5-Garage
+/Users/naimakorane/NaimaKod/Ovning5-Garage/bin/Debug/net10.0/Ovning5-Garage.deps.json
+/Users/naimakorane/NaimaKod/Ovning5-Garage/bin/Debug/net10.0/Ovning5-Garage.runtimeconfig.json
+/Users/naimakorane/NaimaKod/Ovning5-Garage/bin/Debug/net10.0/Ovning5-Garage.dll
+/Users/naimakorane/NaimaKod/Ovning5-Garage/bin/Debug/net10.0/Ovning5-Garage.pdb
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.dll
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/refint/Ovning5-Garage.dll
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.pdb
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/Ovning5-Garage.genruntimeconfig.cache
+/Users/naimakorane/NaimaKod/Ovning5-Garage/obj/Debug/net10.0/ref/Ovning5-Garage.dll

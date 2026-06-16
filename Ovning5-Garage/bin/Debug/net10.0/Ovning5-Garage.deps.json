@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Ovning5-Garage/1.0.0": {
+        "runtime": {
+          "Ovning5-Garage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ovning5-Garage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

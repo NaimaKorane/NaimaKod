@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Övning 4- Arv & Polymorphism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c5a6bc9f5980acad6b0994b5f526560365d79c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f373c6863c6683983e965b8bf8344490ca1fccdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Övning 4- Arv & Polymorphism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Övning 4- Arv & Polymorphism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
