@@ -1,0 +1,338 @@
+body {
+    background-color: #000;
+    color: white;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.info-card {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 45px;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+.info-card p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    line-height: 1.8;
+}
+
+.step-card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+footer {
+    color: #aaa;
+}
+section p {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+h2.mb-5 {
+    margin-top: 50px;
+}
+/* OM OSS */
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h1 {
+    color: #d4a35f;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.contact-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.contact-intro {
+    margin-bottom: 40px;
+}
+
+.contact-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+.contact-card img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.general-contact {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 15px;
+}
+/* HEADER / MENY */
+
+header {
+    border-bottom: 1px solid #d4a35f;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    width: 120px !important;
+    height: auto !important;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #d4a35f;
+}
+/* PRODUKTER */
+
+.products-section {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.products-section h1 {
+    color: #d4a35f;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.products-intro {
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: left;
+}
+
+.product-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 12px;
+    background-color: #050505;
+    margin-bottom: 20px;
+}
+
+.product-card h2 {
+    color: #d4a35f;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+}
+
+.product-card ul {
+    padding-left: 20px;
+}
+
+.product-card li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+/* KAFFEPARTY */
+
+.coffee-party-section {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.coffee-party-section h1 {
+    color: #d4a35f;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.party-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+
+.party-card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 18px;
+    padding: 35px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.party-card h2 {
+    color: #d4a35f;
+    margin-bottom: 15px;
+}
+
+.party-card p {
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+
+.party-card ul {
+    padding-left: 20px;
+}
+
+.party-card li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.party-button {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 14px 24px;
+
+    background-color: #d4a35f;
+    color: #111;
+
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.party-button:hover {
+    background-color: #e0b06e;
+}
+.party-button:hover {
+    background-color: #e0b06e;
+}
+@media (max-width: 768px) {
+
+    .party-grid,
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
