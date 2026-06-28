@@ -19,9 +19,9 @@ public class GarageHandler : IHandler
         return garage.AddVehicle(vehicle);
     }
 
-    public bool RemoveVehicle()
+    public bool RemoveVehicle(string registrationNumber)
     {
-        return garage.RemoveVehicle();
+        return garage.RemoveVehicle(registrationNumber);
     }
 
     public Vehicle? FindByRegistrationNumber(string registrationNumber)
@@ -40,31 +40,41 @@ public class GarageHandler : IHandler
 
         foreach (Vehicle vehicle in garage)
         {
-            string type = vehicle.GetType().Name;
+            string vehicleType = vehicle.GetType().Name;
 
-            if (counts.ContainsKey(type))
+            if (!counts.ContainsKey(vehicleType))
             {
-                counts[type]++;
+                counts[vehicleType] = 0;
             }
-            else
-            {
-                counts[type] = 1;
-            }
+
+            counts[vehicleType]++;
         }
 
         return counts;
     }
 
+    public IEnumerable<Vehicle> FindByType(string vehicleType)
+    {
+        return garage.Where(vehicle =>
+            vehicle.GetType().Name.Equals(vehicleType, StringComparison.OrdinalIgnoreCase));
+    }
+
     public IEnumerable<Vehicle> FindByColor(string color)
     {
-        return garage.Where(v => v.Color.Equals(
-            color,
-            StringComparison.OrdinalIgnoreCase));
+        return garage.Where(vehicle =>
+            vehicle.Color.Equals(color, StringComparison.OrdinalIgnoreCase));
     }
-public IEnumerable<Vehicle> FindByColorAndWheels(string color, int numberOfWheels)
-{
-    return garage.Where(v =>
-        v.Color.Equals(color, StringComparison.OrdinalIgnoreCase)
-        && v.NumberOfWheels == numberOfWheels);
-}
+
+    public IEnumerable<Vehicle> FindByWheels(int numberOfWheels)
+    {
+        return garage.Where(vehicle =>
+            vehicle.NumberOfWheels == numberOfWheels);
+    }
+
+    public IEnumerable<Vehicle> FindByColorAndWheels(string color, int numberOfWheels)
+    {
+        return garage.Where(vehicle =>
+            vehicle.Color.Equals(color, StringComparison.OrdinalIgnoreCase)
+            && vehicle.NumberOfWheels == numberOfWheels);
+    }
 }

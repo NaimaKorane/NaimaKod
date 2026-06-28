@@ -5,80 +5,83 @@ namespace Ovning5_Garage;
 
 public class Garage<T> : IEnumerable<T> where T : Vehicle
 {
-private T[] vehicles;
+    private T[] vehicles;
 
+    public int Capacity { get; }
 
-public int Capacity { get; }
+    public int Count { get; private set; }
 
-public int Count { get; private set; }
-
-public Garage(int capacity)
-{
-    Capacity = capacity;
-    vehicles = new T[capacity];
-}
-
-
-public bool AddVehicle(T vehicle)
-{
-    if (Count >= Capacity)
+    public Garage(int capacity)
     {
-        return false;
+        Capacity = capacity;
+        vehicles = new T[capacity];
     }
 
-    if (FindByRegistrationNumber(vehicle.RegistrationNumber) != null)
+    public bool AddVehicle(T vehicle)
     {
-        return false;
-    }
-
-    vehicles[Count] = vehicle;
-    Count++;
-
-    return true;
-}
-
-
-public bool RemoveVehicle()
-{
-    if (Count == 0)
-    {
-        return false;
-    }
-
-    Count--;
-    vehicles[Count] = default!;
-
-    return true;
-}
-
-public T? FindByRegistrationNumber(string registrationNumber)
-{
-    for (int i = 0; i < Count; i++)
-    {
-        if (string.Equals(
-            vehicles[i]?.RegistrationNumber,
-            registrationNumber,
-            StringComparison.OrdinalIgnoreCase))
+        if (Count >= Capacity)
         {
-            return vehicles[i];
+            return false;
+        }
+
+        if (FindByRegistrationNumber(vehicle.RegistrationNumber) != null)
+        {
+            return false;
+        }
+
+        vehicles[Count] = vehicle;
+        Count++;
+
+        return true;
+    }
+
+    public bool RemoveVehicle(string registrationNumber)
+    {
+        for (int i = 0; i < Count; i++)
+        {
+            if (string.Equals(vehicles[i]?.RegistrationNumber, registrationNumber, StringComparison.OrdinalIgnoreCase))
+            {
+                for (int j = i; j < Count - 1; j++)
+                {
+                    vehicles[j] = vehicles[j + 1];
+                }
+
+                Count--;
+                vehicles[Count] = default!;
+
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public T? FindByRegistrationNumber(string registrationNumber)
+    {
+        for (int i = 0; i < Count; i++)
+        {
+            if (string.Equals(
+                vehicles[i]?.RegistrationNumber,
+                registrationNumber,
+                StringComparison.OrdinalIgnoreCase))
+            {
+                return vehicles[i];
+            }
+        }
+
+        return default;
+    }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+        for (int i = 0; i < Count; i++)
+        {
+            yield return vehicles[i];
         }
     }
 
-    return default;
-}
-
-public IEnumerator<T> GetEnumerator()
-{
-    for (int i = 0; i < Count; i++)
+    IEnumerator IEnumerable.GetEnumerator()
     {
-        yield return vehicles[i];
+        return GetEnumerator();
     }
-}
-
-IEnumerator IEnumerable.GetEnumerator()
-{
-    return GetEnumerator();
-}
-
-
 }

@@ -4,9 +4,9 @@ public class Bus : Vehicle
 {
     public int NumberOfSeats { get; set; }
 
-    public Bus(string registrationNumber, string color)
-        : base(registrationNumber, color, 6)
+    public Bus(string registrationNumber, string color, int numberOfWheels, int numberOfSeats)
+        : base(registrationNumber, color, numberOfWheels)
     {
-        NumberOfSeats = 50;
+        NumberOfSeats = numberOfSeats;
     }
 }

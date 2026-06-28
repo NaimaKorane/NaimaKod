@@ -4,9 +4,9 @@ public class Car : Vehicle
 {
     public string FuelType { get; set; }
 
-    public Car(string registrationNumber, string color)
-        : base(registrationNumber, color, 4)
+    public Car(string registrationNumber, string color, int numberOfWheels, string fuelType)
+        : base(registrationNumber, color, numberOfWheels)
     {
-        FuelType = "Gasoline";
+        FuelType = fuelType;
     }
 }

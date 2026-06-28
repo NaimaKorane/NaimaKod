@@ -4,9 +4,9 @@ public class Airplane : Vehicle
 {
     public int NumberOfEngines { get; set; }
 
-    public Airplane(string registrationNumber, string color)
-        : base(registrationNumber, color, 3)
+    public Airplane(string registrationNumber, string color, int numberOfWheels, int numberOfEngines)
+        : base(registrationNumber, color, numberOfWheels)
     {
-        NumberOfEngines = 2;
+        NumberOfEngines = numberOfEngines;
     }
 }
